@@ -1,0 +1,18 @@
+﻿{
+    "Name": "Ring of Immortality",
+    "Author": "Despical",
+    "Version": "1.0.0",
+    "Description": "Adds a ring that restores player's money and inventory on passout",
+    "UniqueID": "despical.ringofimmortality",
+    "EntryDll": "RingOfImmortality.dll",
+    "MinimumApiVersion": "3.0.0",
+    "UpdateKeys": [],
+    "Dependencies": [
+        {
+            "UniqueID": "spacechase0.JsonAssets"
+        },
+        {
+            "UniqueID": "spacechase0.SpaceCore"
+        }
+    ]
+}

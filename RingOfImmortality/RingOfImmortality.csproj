@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.0.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+
+		<Reference Include="SpaceCore">
+			<HintPath>..\..\..\..\Desktop\SpaceCore.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+	<ProjectExtensions>
+		<VisualStudio>
+			<UserProperties manifest_1json__JsonSchema="" />
+		</VisualStudio>
+	</ProjectExtensions>
+</Project>
